@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    
+    <!-- CHAMAR O FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CHAMAR O GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Poppins:wght@300&display=swap" rel="stylesheet">
+<!-- LINKAR O CSS -->
+    <link rel="stylesheet" href="./css/styles2.css">
+</head>
+<body>
+<!-- CONTAINER PRINCIPAL -->
+    <div class="container">
+    <!-- imagem -->
+        <div class="box1">
+        <h1>PROSPERA</h1>
+        <img src="./images/FOGUETE.svg" alt="">
+        </div>
+        <!-- formulário -->
+        <div class="box2">
+        <h2>CRIE SUA CONTA</h2>
+        <form id="dados" name="dados" method="post" action="" class="form">
+            <div class="box-form-item">
+                <label for="nome">Nome Completo</label>
+                <input type="text" placeholder="Ex: Fulano de Tal" id="nome" name="nome" required>
+            </div>
+            <div class="box-form-item">
+                <label for="email">E-mail</label>
+                <input type="text" placeholder="fulano@email.com" id="e-mail" name="e-mail" required >
+            </div>
+            <div class="box-form-item">
+                <label for="usuario">Usuário</label>
+                <input type="text" placeholder="user123456" id="usuario" name="usuario" required>
+            </div>
+            <div class="box-form-item">
+                <label for="senha">Senha</label>
+                <input type="password" placeholder="PKl984?E" id="senha" name="senha" required>
+            </div>
+            <div class="box-form-button">
+                <button type="submit">CRIAR CONTA</button>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
